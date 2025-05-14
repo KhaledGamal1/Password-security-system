@@ -1,18 +1,31 @@
-﻿# Password-security-system
-This project involves the development of a digital lock system featuring a keypad with digits 0–9, a Confirm button, and a Reset (or Back) button. The password is a 3-digit numeric code.
+# Password Security System
 
-System Behavior:
-  When the user enters the correct password on the first attempt:
-    A green LED turns on.
-    The lighting system and a "waiting" LED are activated.
-  If the password is entered incorrectly:
-    The user can press the Reset button to clear the input and re-enter the password from the beginning.
-  After three consecutive incorrect attempts:
-    A red LED is activated.
-    The alarm system is triggered.
-  A 7-segment display provides real-time feedback by showing:
-    The number of incorrect attempts.
-    The number of digits entered so far.
-    The full password input (as it's being entered).
-    
-This system provides secure access control using intuitive user feedback via LEDs, alarms, and a 7-segment display.
+This project is a digital lock system designed with a keypad and visual feedback components for secure access control.
+
+## Features
+
+- **Keypad Input**  
+  Includes digits 0–9, a **Confirm** button, and a **Reset/Back** button.
+
+- **Password**  
+  A 3-digit numeric password must be entered to unlock the system.
+
+- **Correct Password Behavior**  
+  - A green LED turns on.
+  - The lighting system and a "waiting" LED are activated.
+
+- **Incorrect Password Behavior**  
+  - The user can press the **Reset** button to clear the input and re-enter the password.
+  - After three consecutive incorrect attempts:
+    - A red LED is activated.
+    - An alarm system is triggered.
+
+- **7-Segment Display Feedback**  
+  Displays:
+  - The number of incorrect attempts.
+  - The digits entered so far.
+  - The full password input as it is being typed.
+
+## Overview
+
+This system offers an intuitive and secure way to manage password-protected access using simple hardware components and clear visual indicators.
