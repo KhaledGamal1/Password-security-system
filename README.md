@@ -31,5 +31,5 @@ This project is a digital lock system designed with a keypad and visual feedback
 This system offers an intuitive and secure way to manage password-protected access using simple hardware components and clear visual indicators.
 
 
-**Note** :if you have any issues opening the Proteus file or running the simulation, you can download the same version used in the project which is 8.17 from this link:
+***Note** :if you have any issues opening the Proteus file or running the simulation, you can download the same version used in the project which is 8.17 from this link:
 https://karanpc.com/proteus-free-download/
